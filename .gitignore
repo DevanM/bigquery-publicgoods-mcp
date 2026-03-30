@@ -1,0 +1,7 @@
+# THE SOVEREIGN SHIELD: CASCADING PROTECTION
+node_modules/
+.env
+*.json
+secrets/
+.private-vault/
+.private-strategy/
