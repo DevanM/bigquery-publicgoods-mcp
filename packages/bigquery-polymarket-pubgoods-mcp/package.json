@@ -1,0 +1,30 @@
+{
+  "name": "bigquery-polymarket-pubgoods-mcp",
+  "version": "0.1.0",
+  "description": "Web3 public goods powered by Google BigQuery.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "bigquery",
+    "polymarket",
+    "publicgoods"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/bigquery": "^8.1.1",
+    "@modelcontextprotocol/sdk": "^1.28.0",
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "typescript": "^5.3.3"
+  }
+}

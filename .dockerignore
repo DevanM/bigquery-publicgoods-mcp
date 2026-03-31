@@ -1,0 +1,25 @@
+# ==============================================================================
+# .dockerignore
+# PURPOSE: Zero-Leakage Build Context Shield
+# ==============================================================================
+
+# 1. Block Private Data and Credentials (CRITICAL)
+.private-vault/
+**/.env
+**/.env.deploy
+**/.env.local
+mcp-config.json
+
+# 2. Block Local State and Logs
+**/node_modules
+**/npm-debug.log*
+**/.DS_Store
+
+# 3. Block Version Control
+.git/
+.gitignore
+
+# 4. Block Development Documentation
+docs/internal/
+GEMINI.md
+PUBLIC_GOODS_OPEN_SOURCE_HANDBOOK.md

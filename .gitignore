@@ -1,7 +1,17 @@
-# THE SOVEREIGN SHIELD: CASCADING PROTECTION
+# THE PUBLIC GOODS SHIELD: CASCADING PROTECTION
 node_modules/
-.env
-*.json
+dist/
+**/.env
 secrets/
 .private-vault/
 .private-strategy/
+docs/internal/
+
+# Allow essential config files
+!package.json
+!tsconfig.json
+!package-lock.json
+!*.md
+
+.env.deploy
+.private-vault
